@@ -16,9 +16,4 @@ Welcome to my personal portfolio! Built using modern front-end technologies, thi
 - Instagram: [@krishna_._giri](https://www.instagram.com/krishna_._giri/)
 
 
-[![Rainbow Fill](./buttons/53-rainbow-fill/preview.webp)](https://fanciful-figolla-b75344.netlify.app/)  
-**[Visit My Portfolio](https://fanciful-figolla-b75344.netlify.app/)**
-
-
-
-[![Rainbow Fill](./buttons/53-rainbow-fill/preview.webp)](https://fanciful-figolla-b75344.netlify.app/)
+[![Rainbow Fill](https://ui-buttons.web.app/buttons/53-rainbow-fill/preview.webp)](https://fanciful-figolla-b75344.netlify.app/)
