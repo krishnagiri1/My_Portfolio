@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useCallback, memo } from "react"
 import { Github, Linkedin, Mail, ExternalLink, Instagram, Sparkles } from "lucide-react"
-import { DotLottieReact } from '@lottiefiles/dotlottie-react'
+import SplineRobot from '../Components/SplineRobot'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 
@@ -208,33 +208,30 @@ const Home = () => {
               </div>
             </div>
 
-            {/* Right Column - Optimized Lottie Animation */}
-            <div className="w-full py-[10%] sm:py-0 lg:w-1/2 h-auto lg:h-[600px] xl:h-[750px] relative flex items-center justify-center order-2 lg:order-2 mt-8 lg:mt-0"
-              onMouseEnter={() => setIsHovering(true)}
-              onMouseLeave={() => setIsHovering(false)}
+            {/* Right Column – Spline 3D Robot */}
+            <div
+              className="w-full lg:w-1/2 flex items-center justify-center order-2 mt-8 lg:mt-0"
               data-aos="fade-left"
-              data-aos-delay="600">
-              <div className="relative w-full opacity-90">
-                <div className={`absolute inset-0 bg-gradient-to-r from-[#6366f1]/10 to-[#a855f7]/10 rounded-3xl blur-3xl transition-all duration-700 ease-in-out ${
-                  isHovering ? "opacity-50 scale-105" : "opacity-20 scale-100"
-                }`}>
-                </div>
-
-                <div className={`relative z-10 w-full opacity-90 transform transition-transform duration-500 ${
-                  isHovering ? "scale-105" : "scale-100"
-                }`}>
-                  <DotLottieReact {...lottieOptions} />
-                </div>
-
-                <div className={`absolute inset-0 pointer-events-none transition-all duration-700 ${
-                  isHovering ? "opacity-50" : "opacity-20"
-                }`}>
-                  <div className={`absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[400px] h-[400px] bg-gradient-to-br from-indigo-500/10 to-purple-500/10 blur-3xl animate-[pulse_6s_cubic-bezier(0.4,0,0.6,1)_infinite] transition-all duration-700 ${
-                    isHovering ? "scale-110" : "scale-100"
-                  }`}>
-                  </div>
-                </div>
+              data-aos-delay="600"
+            >
+              <div className="relative w-full 
+                  h-[720px]    /* mobile: 300px tall */
+                  sm:h-[450px] /* small-screen: 450px */
+                  md:h-[600px] /* medium: 600px */
+                  lg:h-[750px] /* large: 750px */
+                  overflow-hidden rounded-3xl shadow-2xl">
+                <iframe
+                  src="https://my.spline.design/robotfollowcursorforlandingpagemc-LmZhVZGia2BV1ISUc7ZdvFQ9/"
+                  title="3D Robot"
+                  className="
+                    absolute top-0 left-0
+                    w-[100%] md:w-[125%] lg:w-full  /* zoom more on mobile to fill the frame */
+                    h-[calc(100%+60px)]             /* push badge out of view */
+                  "
+                  style={{ border: 0 }}
+                />
               </div>
+             
             </div>
           </div>
         </div>
@@ -244,3 +241,5 @@ const Home = () => {
 };
 
 export default memo(Home);
+
+
