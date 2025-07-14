@@ -1,7 +1,9 @@
 {
-  "name": "portofolio-v5",
+  "name": "krishnagiri-portfolio",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "author": "Venkata Krishna Giri Koneru <kvkgiri01@gmail.com>",
+  "homepage": "https://fanciful-figolla-b75344.netlify.app",
   "type": "module",
   "scripts": {
     "dev": "vite",
