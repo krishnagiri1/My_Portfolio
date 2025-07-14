@@ -26,7 +26,7 @@ const socialLinks = [
     displayName: "Resume",
     subText: "View ",
     icon: FileText,
-    url: "https://drive.google.com/file/d/1aVxuKNIppzxBieFH5D5EZjK_ZVl5Zils/view?usp=sharing",  // Replace with the correct path to your resume
+    url: "https://drive.google.com/file/d/1o6ox7DcyEl0FamGytJ8Bkk7oPQKReG2k/view?usp=sharing",  // Replace with the correct path to your resume
     color: "#4CAF50",
     gradient: "from-[#4CAF50] to-[#388E3C]"
   },
