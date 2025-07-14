@@ -210,7 +210,7 @@ const Home = () => {
 
             {/* Right Column – Spline 3D Robot */}
             <div
-              className="w-full lg:w-1/2 flex items-center justify-center order-2 mt-8 lg:mt-0"
+              className="hidden sm:flex w-full lg:w-1/2 items-center justify-center order-2 mt-8 lg:mt-0"
               data-aos="fade-left"
               data-aos-delay="600"
             >
